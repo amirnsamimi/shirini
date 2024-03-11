@@ -1,0 +1,1 @@
+export const primaryRed = "#CE0000";
