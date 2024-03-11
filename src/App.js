@@ -1,10 +1,7 @@
-import  Card  from "./components/Card/card";
 import "./App.css";
 
 function App() {
-  return <>
-  <Card/>
-  </>;
+  return <></>;
 }
 
 export default App;
