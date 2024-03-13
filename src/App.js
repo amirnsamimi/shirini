@@ -1,3 +1,4 @@
+import  Button  from "./components/button/Button";
 import "./App.css";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
 
   return (
     <>
+    <Button/>
     </>
   );
 }
