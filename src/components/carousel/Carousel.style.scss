@@ -7,18 +7,20 @@
     transition: 1s;
     :first-child{
         position: absolute;
+        transform: rotate(0deg);
+        transform-origin: 0 100%;
+
     }
-    :nth-child(1){
+    :nth-child(2){
         position: absolute;
         transform: rotate(-15deg);
-        transform-origin: 0% 0%;
+        transform-origin: 0 100%;
         transition: 1s;
     }
-    // :nth-child(3){
-    //     position: absolute;
-    //     transform: rotate(60deg);
-    // transform-origin: 0% 0%;
-
-    //     transition: 1s;
-    // }
+    :nth-child(3){
+        position: absolute;
+        transform: rotate(-30deg);
+        transform-origin: 0 100%;
+        transition: 1s;
+    }
 }

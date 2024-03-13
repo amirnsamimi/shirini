@@ -14,10 +14,14 @@ const Carousel = (props) => {
       </div>
       <div className="absolute top-0 bg-black w-full h-full opacity-25"></div>
 
-      <div className="absolute bottom-10 p-10 w-full h-ful">
+      <div className="absolute flex  bottom-10 p-10 w-full h-ful">
         <div className="Buttons flex justify-center">
-          <div className="bg-white w-8 h-8 rounded-full flex justify-center items-center">{props.icontxt}</div>
-          <div className="bg-white  h-8 flex p-4 rounded-xl justify-center items-center">{props.txt}</div>
+          <div className="bg-white w-8 h-8 rounded-full flex justify-center items-center">
+            {props.icontxt}
+          </div>
+          <div className="bg-white  h-8 flex p-4 rounded-xl justify-center items-center">
+            {props.txt}
+          </div>
         </div>
       </div>
     </div>
